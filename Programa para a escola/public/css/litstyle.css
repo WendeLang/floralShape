@@ -1,0 +1,47 @@
+#materialit{
+    position: absolute;
+    margin-top: 685px;
+    left: 1090px;
+}
+#literatura{
+position: relative;
+text-align: center;
+}
+#selolit{
+    position: absolute;
+    margin-top: 185px;
+    left: 120px;
+    opacity: 0;
+}
+#selolitneg{
+    position: absolute;
+    margin-top: 185px;
+    left: 120px;
+    opacity: 0;
+}
+
+
+
+@media (max-width: 759px){
+    #materialit{
+        position: absolute;
+        margin-top: 3540px;
+        left: 120px;
+    }
+    #literatura{
+        position: relative;
+        text-align: center;
+    }
+    #selolit{
+        position: absolute;
+        margin-top: 180px;
+        left: 115px;
+        opacity: 0;
+    }
+    #selolitneg{
+        position: absolute;
+        margin-top: 180px;
+        left: 115px;
+        opacity: 0;
+    }
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styleOfThings/newHomePage.css">
+    <link rel="stylesheet" href="./styleOfThings/cien-natu.css">
+    <link rel="stylesheet" href="./styleOfThings/cien-human.css">
+    <link rel="stylesheet" href="./styleOfThings/cod-ling.css">
+    <link rel="stylesheet" href="./styleOfThings/mat.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <title>Study Manager</title>
+</head>
+<body>
+    <div id="page"> 
+
+        <!-- <div id="blur">
+            
+        </div> -->
+
+        <header>
+<p id="apresentacao">Floral Shape</p>
+<p id="perfil">
+    Perfil
+</p>
+        </header>
+        <main>
+            <nav id="cien-natu">
+               
+                <div id="img-cien-natu"> 
+                    <div id="footer-div-natu">
+                        Ciências da natureza
+
+                        <ul>
+                            <li id="bio">BiologiaIr</li>
+                            <li id="quim">Química</li>
+                            <li id="fis">Física</li>
+                        </ul>
+
+                        <img src="/public/imagens/canva-photo-editor.png" alt="Exibir matérias" class="seta-baixo" id="seta-id" onclick="mattersNatu()">
+                    </div>
+                </div>
+
+            </nav>
+
+            <nav id="cien-human">
+
+
+                <div id="img-cien-human">
+                   <div id="footer-div-human">
+                       Ciênicas humanas
+
+                       <ul>
+                        <li id="hist">História</li>
+                        <li id="geog">Geografia</li>
+                        <li id="filo">Filosofia</li>
+                        <li id="soc">Sociologia</li>
+                    </ul>
+                       
+                    <img src="/public/imagens/canva-photo-editor.png" alt="Exibir matérias" class="seta-baixo" onclick="mattersHuman()"> 
+                   </div>
+                </div>
+            </nav>
+
+            <nav id="cod-ling">
+
+
+                <div id="img-cod-ling">
+                    <div id="footer-div-cod">
+                        Códigos e linguagens
+
+                        <ul>
+                            <li id="port">Português</li>
+                            <li id="lit">Literatura</li>
+                            <li id="ing">Inglês</li>
+                            <li id="esp">Espanhol</li>
+                        </ul>
+
+                        <img src="/public/imagens/canva-photo-editor.png" alt="Exibir matérias" class="seta-baixo" onclick="mattersCod()">
+                        
+                    </div>
+                </div>
+            </nav>
+
+            <nav id="mat-disc">
+                <div id="img-mat-disc">
+                    <div id="footer-div-mat">
+                        Matemática
+
+                        <ul>
+                            <li id="mat">Matemática</li>
+                        </ul>
+
+                        <img src="/public/imagens/canva-photo-editor.png" alt="Exibir matérias" class="seta-baixo" onclick="matterMat()"> 
+                    </div>
+                </div>
+            </nav>
+
+
+
+<img src="/public/imagens/logoMaisOfc.png" alt="Adicionar notas" id="sinalMais" onclick="addNote()">
+        </main>
+    </div>
+
+    <script src="/beforeAPI/matters/mattersNatu.js"></script>
+    <script src="./matters/mattersHuman.js"></script>
+    <script src="/beforeAPI/matters/mattersCod.js"></script>
+    <script src="/beforeAPI/matters/matterMat.js"></script>
+    <script src="/beforeAPI/addNotes/addNotes.js"></script>
+</body>
+</html>

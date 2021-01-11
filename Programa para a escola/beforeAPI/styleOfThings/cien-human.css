@@ -1,0 +1,60 @@
+
+main #img-cien-human{
+    top: 240px;
+   position: absolute;
+
+height: 50px;
+border-radius: 20px;
+border:2px solid rgba(255, 255, 255, 0);
+   left:30%;
+   height: 200px;
+   width:16%; 
+   background: url('/public/imagens/orange-wallp.webp');
+   background-size:100%;
+   
+   /* background-position-y: 100px; */
+}
+
+main #footer-div-human{
+    position: absolute; 
+    z-index: 2;
+    text-align: center;
+    line-height: 130px;
+
+    font-family: 'Oswald', sans-serif;
+left:1%;
+border-radius: 0 0 12px 12px;
+    border:2px solid rgba(255, 0, 0, 0);
+    width:96.5%;
+    top: 50px;
+    height: 160px;
+    background: white;
+}
+
+
+main #footer-div-human ul{
+    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14pt;
+    display: block;
+    
+}
+ul #hist{
+    position: relative;
+    opacity: 0;
+}
+ul #geog{
+    position: absolute;
+    top:40px;
+    opacity: 0;
+}
+ul #filo{
+    position: absolute;
+    top:80px;
+    opacity: 0;
+}
+ul #soc{
+    position: absolute;
+    top:120px;
+    opacity: 0;
+}

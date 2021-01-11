@@ -1,0 +1,48 @@
+#materiasoc{
+    position: absolute;
+    margin-top: 690px;
+    left: 585px;
+}
+#sociologia{
+    position: relative;
+    text-align:center;
+}
+#selosoc{
+    position: absolute;
+    margin-top: 195px;
+    left: 90px;
+    opacity: 0;
+}
+
+#selosocneg{
+    position: absolute;
+    margin-top: 195px;
+    left: 90px;
+    opacity: 0;
+}
+
+
+@media (max-width: 759px){
+    #materiasoc{
+        position:absolute;
+    margin-top:3200px;
+    left:140px;
+    }
+    #sociologia{
+        position: relative;
+        text-align: center;
+    }
+    #selosoc{
+        position:absolute;
+        margin-top:210px;
+        left:90px;
+        opacity: 0;
+    }
+    #selosocneg{
+        position:absolute;
+        margin-top:210px;
+        left:90px;
+        opacity: 0;
+    }
+   
+}

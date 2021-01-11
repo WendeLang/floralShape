@@ -1,0 +1,38 @@
+
+
+/*PORTUGUESSS*/
+/*FOTO PORT*/
+#port{
+    position: absolute;
+    left:1093px;
+    margin-top:170px;
+}
+#seloport{
+    position:absolute;
+    left:1200px;
+    margin-top:330px;
+    opacity: 0;
+
+}
+#seloportneg{
+    position:absolute;
+    left:1200px;
+    margin-top:330px;
+    opacity: 0;
+}
+/*NOME PORT*/
+#portugues{
+    position:absolute;
+    left:1185px;
+    margin-top:125px;
+
+
+}
+
+@media (max-width: 759px){
+#materiaport{
+    position: absolute;
+    left:-970px;
+    top:1750px;
+}
+}

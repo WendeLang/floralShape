@@ -1,0 +1,323 @@
+body{
+ 
+background:rgb(245, 233, 233);
+
+}
+
+#details-container{
+position: absolute;
+left: 200px;
+margin:auto;
+padding: 60px;
+width: 100%;
+max-width: 1069px;
+
+    border-radius:20px;
+    height:550px;
+    background:white;
+    overflow: hidden;
+}
+
+
+#waiter{
+    position: absolute;
+    margin-top:350px;
+    left:680px;
+    width:100px;
+}
+ #gato{
+    position: relative;
+    margin-top: 400px;
+    left:680px;
+} 
+#select-data{
+    position: absolute;
+    margin-top:350px;
+    left:280px;
+    width:100px;
+}
+
+#fundo{
+    position:absolute;
+    width: 100%;
+    max-width: 1440px;
+    margin:auto;
+    margin-top: 180px;
+    left: -1px;
+}
+#graf{
+    position: absolute;
+    left:370px;
+    margin:auto;
+    margin-top: 380px;
+
+}
+
+aside{
+    position:fixed;
+    left:0;
+    top:0;
+    width: 140px;
+    height: 100%;
+
+    background:linear-gradient(329.54deg,rgb(182, 5, 5) 0%,rgb(146, 45, 45) 100%);
+
+}
+
+#back-arrow{
+    position: absolute;
+    left:35px;
+    padding:20px;
+    border-radius: 10px;
+    margin-top:535px;
+    transition: background 0.3s; 
+    background:rgba(255, 196, 0, 0.123);
+}
+#back-arrow:hover{
+    background:rgba(255, 153, 0, 0.411);
+    cursor: pointer;
+} 
+#makeInSas{
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    margin-top:150px;
+    text-align: center;
+   padding-top:15px;
+    left:730px;
+    box-shadow: 0 3px 6px rgba(52,60,88,.4);
+    width:230px;
+    height:205px;
+    transition: box-shadow .5s;
+    border-radius: 30px;
+    overflow: hidden;
+
+}
+#makeInSas #goSas{
+    padding-bottom: 15px;
+    padding-top:10px;
+    left:40px;
+padding-left: 200px;
+padding-right: 200px;
+
+transition: background 0.3s;
+cursor:pointer;
+    background:orange;
+}
+#makeInSas #elink{
+    position:absolute;
+    top:165px;
+}
+#makeInSas:hover{
+    box-shadow: 0 16px 24px rgba(52,60,88,.4);
+}
+#makeInSas #goSas:hover{
+    background:rgba(255, 166, 0, 0.541);
+}
+
+#pts{
+    position: absolute;
+    left: 88%;
+    text-align: center;
+    top:-20px;
+    padding:15px;
+ width:140px;
+ font-family: 'Oswald', sans-serif;
+ color:rgb(255, 255, 255);
+ background:linear-gradient(329.54deg, #29b6d1 0%, #07e992 100%);
+}
+
+@keyframes right{
+    from{
+transform: translateX(-100%);
+    }
+    to{
+transform: translateX(0);
+    }
+}
+.animate-right{
+    animation-name: right;
+    animation-duration: 0.5s;
+    animation-fill-mode: initial;
+}
+
+@keyframes up{
+    from{
+opacity: 0;
+transform: translateY(16px);
+    }
+    to{
+opacity: 1;
+transform: translateY(0);
+    }
+}
+.animation-up{
+    animation-name: up;
+    animation-duration: 0.5s;
+    animation-fill-mode: initial;
+}
+
+
+
+/*
+@media (max-width: 760px){
+    @media (max-width: 760px){
+        #details-container{
+            left:65px;
+         width: 500px;
+         
+        }
+    
+        #back-screen{
+            position: fixed;
+            display: initial;
+            margin-top: 540px;
+            z-index: 10;
+            width:60px;
+            border-radius: 10px;
+            left:20px;
+            transition: background 0.3s;
+            background:rgb(207, 133, 89);
+        }
+        #back-screen:hover{
+            background:rgba(207, 132, 89, 0.589);
+            cursor: pointer;
+        }
+     
+    #lateral{
+        display: none;
+    }
+    
+    }
+ 
+#lateral{
+    display: none;
+}
+
+}
+ 
+
+@media(width:1024px){
+   #details-container{
+       width:645px;
+       left:165px;
+    
+   }
+    #back-arrow{
+        position: absolute;
+        left:25px;
+        padding:10px;
+        border-radius: 10px;
+        margin-top:350px;
+        transition: background 0.3s;
+        background:rgba(255, 196, 0, 0.123);
+    }
+  #lateral{
+      width:100px;
+  }
+  #fundo{
+      margin-top:170px;
+       left:0px; 
+       width:1000px;
+       height:600px;
+  }
+  #graf{
+      left:162px;
+      margin-top:200px;
+  }
+  #makeInSas{
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    margin-top:180px;
+    text-align: center;
+   padding-top:15px;
+    left:470px;
+    font-size: small;
+    box-shadow: 0 3px 6px rgba(52,60,88,.4);
+    width:160px;
+    height:150px;
+    transition: box-shadow .5s;
+    border-radius: 30px;
+    overflow: hidden;
+
+  }
+
+  #makeInSas #goSas{
+  margin-top: -100px;
+
+}
+#waiter{
+    position: absolute;
+    left:490px ;
+
+}
+#gato{
+
+     left:490px ;
+}
+  #pts{
+      position: absolute;
+      left:600px;
+  }
+
+
+
+} */
+
+/* 
+@media(min-width: 1400px){
+    #details-container{
+        position: absolute;
+        left: 215px;
+        padding: 60px;
+            width: 1029px;
+            border-radius:20px;
+            height:550px;
+            background:white;
+            overflow: hidden;
+        }
+
+    
+    #back-arrow{
+        position: absolute;
+        left:35px;
+        padding:20px;
+        border-radius: 10px;
+        margin-top:600px;
+        transition: background 0.3s;
+        background:rgba(255, 196, 0, 0.123);
+    }
+
+    #fundo{
+        position:absolute;
+        top:450px;
+        left: 71px;
+    }
+#graf{
+    position: absolute;
+    margin-top: 290px;
+}
+    #pts{
+        position: absolute;
+        left:980px;
+        text-align: center;
+        top:-20px;
+        padding:15px;
+     width:140px;
+     font-family: 'Oswald', sans-serif;
+     color:rgb(255, 255, 255);
+     background:linear-gradient(329.54deg, #29b6d1 0%, #07e992 100%);  
+    }
+
+
+} */
+
+
+

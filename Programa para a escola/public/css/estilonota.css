@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body {
+    background-color: black;
+}
+#site{
+    margin:0 auto 0 auto;
+}
+h1{
+    text-align:center;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+
+/*
+Saudação
+*/
+#hora{
+    
+    text-align: center;
+    text-decoration: dashed;
+    color:white;
+    
+
+}
+/*
+Colocando foto e nome das matérias
+*/
+p{
+    color:white;
+}
+
+/*----------------------------------------*/
+@media (min-width: 760px){
+    #site{
+        margin:0 auto 0 auto;
+        width:1350px;
+    }
+ 
+}
+

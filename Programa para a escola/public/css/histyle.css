@@ -1,0 +1,34 @@
+/*HISTORIAAA*/
+/*FOTO HIST*/
+#hist{
+    position: absolute;
+    margin-top:150px;
+}
+#selohist{
+    position:absolute;
+    margin-top:360px;
+    left:110px;
+    opacity: 0;
+}
+#selohistneg{
+    position:absolute;
+    margin-top:360px;
+    left:110px;
+    opacity: 0;
+}
+
+/*NOME HIST*/
+#historia{
+    position: absolute;
+    margin-top:110px;
+    left:100px;
+}
+
+
+@media (max-width: 759px){
+    #materiahist{
+        position: absolute;
+        left:125px;
+        top:1170px;
+    }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = 'pt-BR'>
+    <head>
+        <meta charset ='UTF-8'>
+        <title>Notas Matemática</title>
+        <link rel="stylesheet" href='./mat.css'>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+       <div id="details-container">
+
+           <h1>Matemática</h1>
+           <p id="pts"><strong>Restam 36 pts</strong></p>
+
+         
+          
+       </div>
+        <main>
+         
+
+            <p class= 'animation-up' id = 'select-data'>selecione qual tipo de dados quer ver, ex: prova, semanal...</p>
+
+            <p class= 'animation-up' id = 'waiter'>Aguardando a realização da prova "exemplo"...</p>
+            <label for="waiter">
+                <img src="/public/imagens/ezgif.com-gif-maker.webp" alt="espera" id="gato">
+            </label>
+
+            <img src="/public/imagens/arrow-back.svg" alt="Voltar" id="back-screen" onclick="history.back()">
+
+           
+        </main>
+        <section>
+            <img src="/public/imagens/wallpaper-red2.jpg" alt="fundo" id="fundo">
+
+            <img src="/public/imagens/graphic-back.png" alt="gráfico" id="graf">
+        </section>
+
+        <aside id="lateral" class="animate-right">
+        
+<img src="/public/imagens/arrow-back.svg" alt="Voltar" id = 'back-arrow' onclick='history.back()'>
+        </aside>
+
+
+    <script src="/public/verify-code/VERIFCODE.js"></script>
+        <script src="makeExam.js"></script>
+    </body>
+</html>

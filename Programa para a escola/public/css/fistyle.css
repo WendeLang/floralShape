@@ -1,0 +1,51 @@
+@media (max-width: 759px){
+    
+#materiafis{
+    position: absolute;
+    left:123px;
+    top:3010px;
+}
+#fisica{
+    position: relative;
+    text-align: center;
+    left:-2px;
+}
+#selofis{
+    position: absolute;
+    left:110px;
+    top:210px;
+    opacity: 0;
+}
+#selofisneg{
+    position: absolute;
+    left:110px;
+    top:210px;
+    opacity: 0;
+}
+}
+@media (min-width: 760px){
+     
+#materiafis{
+    position: absolute;
+    left:10px;
+    top:1130px;
+}
+
+#fisica{
+    position: relative;
+    text-align: center;
+    left:-2px;
+}
+#selofis{
+    position: absolute;
+    left:110px;
+    top:200px;
+    opacity: 0;
+}
+#selofisneg{
+    position: absolute;
+    left:110px;
+    top:225px;
+    opacity: 0;
+}
+}

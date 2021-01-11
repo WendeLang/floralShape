@@ -1,0 +1,41 @@
+/*Foto mat*/
+#mat{
+    justify-content: flex;
+   display:flex;
+   margin-top: 200px;
+}
+/*SELO OK*/
+#selomat{
+    position: absolute;
+    margin-top:10px;
+    left:110px;
+    opacity: 0;
+}
+/*SELO NEGAR*/
+#selomatneg{
+    position: absolute;
+    margin-top:10px;
+    left:110px;
+    opacity: 0;
+}
+
+/*Nome Mat*/
+#matematica{
+    position: absolute;
+    left:95px;
+    margin-top:-45px;
+}
+
+
+@media (max-width: 759px){
+    #matematica{
+        position: absolute;
+        margin-top:155px;
+        left:90px;
+    }
+    #materiamat{
+        position: absolute;
+        left:125px;
+        top:140px;
+    }
+}

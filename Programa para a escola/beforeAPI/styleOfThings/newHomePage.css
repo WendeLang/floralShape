@@ -1,0 +1,133 @@
+body{
+    background: rgb(26, 25, 25);
+}
+ 
+  #blur{
+    position: absolute;
+    top: 0;    
+    left: 0;  
+    transform: translate3d( 100%,100%,100%);   
+    width: 100%;
+    height: 100%; 
+    z-index: 30; 
+    transition: all 1s;     
+      backdrop-filter: blur(10px);   
+     background-color: rgba(83, 11, 11, 0.2); 
+    
+    
+          
+     
+}    
+#blackDiv{
+    position: absolute;
+    top: 50px;
+     width: 70%;
+    height: 85%; 
+    text-align: center;
+    line-height: 100px;
+    font-size: 20pt;
+    font-family: 'Oswald', sans-serif;
+    left:16%;   
+    color: white;   
+    transition: all 0.5s;
+    background-color:rgb(255, 80, 80); 
+    z-index: 31;
+}  
+#inputNotes{
+    position: absolute; 
+    top: 450px;    
+    width: 30%;
+    border-radius: 10px;
+    left: 33%;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right:20px ;
+    outline: none;
+}
+#howDoIt{
+    position: absolute;
+    margin-top: 125px;
+    width: 400px;
+    border: 2px solid black;
+left: 30%;
+}
+#goNotes{
+    position: absolute;
+    left: 68%;
+    top: 412px;
+    font-size: 13pt;
+    width: 30px;
+    cursor: pointer;
+
+}
+#goNotes:hover{
+    background-color: rgba(77, 19, 19, 0.349);
+}
+
+header{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+    height: 40px;
+    width: 100%;
+    background:linear-gradient(329.54deg, #29b5d1d0 0%, #07e992c5 100%);
+}
+header #apresentacao{
+    font-weight: bolder;
+    color:#000000;
+    font-size: 13pt;
+}
+header #perfil{
+    font-weight: bolder;
+    color: white;
+}
+
+
+
+
+main #sinalMais{
+    position: fixed;
+z-index: 10;
+left: 90%;
+margin-top: 35%; /*510px*/
+background:linear-gradient(329.54deg, #29b5d1d0 0%, #07e992c5 100%);
+    width:30px;
+    padding:18px;
+    border-radius: 15px;
+    transition: all 0.2s;
+    cursor:pointer;
+}
+main #sinalMais:hover{
+ width:26.5px;
+ padding: 18.5px;
+ 
+ box-shadow: 0 3px 6px rgba(52,60,88,.4);
+ 
+}
+@media(max-width: 768px){
+    main #sinalMais{
+        left: 80%;   
+        margin-top: 500px;
+    }
+     /* #inputNotes{
+        top:300px;
+        left:45%;
+        border-radius: 10px;
+        border: none;
+        padding: 10px;
+        outline: none;
+    } */
+
+    #howDoIt{
+        position: absolute;
+        margin-top: 150px;
+        width: 60%;
+        border: 2px solid black;
+    left: 20%;
+    }
+
+}

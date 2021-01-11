@@ -1,0 +1,16 @@
+﻿traballhe mais no sistema de sauda��o: Se for de dia, deixe a tem�tica do site para como de dia, tipo o background branco e etc; J� de noite voc� deixa preto e assim vai.
+
+As mat�rias est�o muito bagun�adas, o UX designer chora agora n�? Bem, choraria, pois eu sou o UX Designer kk. Pois bem, separe as mat�rias como no ENEM: Linguagens e c�digos; Ci�ncias da natureza; Ciencias humanas; Matemática e Redação. 
+
+Na de Redação, cada redação que voce fizer, coloque a data, a foto da redação e a pontuação dela.
+
+ao final do ano, coloque as matérias do ano, as top 3, as que quando somada todas as notas, ter a média mais alta.
+
+Coloque também a maior nota do ano. 
+
+No canto superior direito, nas matérias, coloque o escore atual (notas somadas de todos os bimestres atuais)
+
+no aside, terá tipo um select, de padrão ao entrar, ficará só o nome da matéria. Mas ai você pode selecionar se quer saber só sobre provas, ai fica Matemática:provas (ou só provas msm); Ai o grafico mostrará só as notas das provas.
+
+para quando  matéria já estiver feita, no local onde fica para ir fazer exame, fica dizendo oque falta para sair a nota, ex: se eu já fiz o teste, fica lá dizendo, aguardando prova (e uma animação de 3 pontinhos "...")
+

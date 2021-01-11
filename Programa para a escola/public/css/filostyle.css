@@ -1,0 +1,48 @@
+@media (max-width: 759px){
+    #materiafilo{
+        position: absolute;
+        left:150px;
+        top:2750px;
+    }
+    #filosofia{
+        position: relative;
+        text-align: center;
+    }
+    #selofilo{
+        position: absolute;
+        margin-top:165px;
+        left:85px;
+        opacity: 0;
+    }
+    #selofiloneg{
+        position: absolute;
+        margin-top:165px;
+        left:85px;
+        opacity: 0;
+    }
+}
+
+@media (min-width: 760px){
+      
+#materiafilo{
+    position: absolute;
+    left:1120px;
+    top:865px;
+}
+#filosofia{
+    position: relative;
+    text-align: center;
+}
+#selofilo{
+    position: absolute;
+    margin-top:165px;
+    left:85px;
+    opacity: 0;
+}
+#selofiloneg{
+    position: absolute;
+    margin-top:165px;
+    left:85px;
+    opacity: 0;
+}
+}

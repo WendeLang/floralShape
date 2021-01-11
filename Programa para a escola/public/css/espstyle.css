@@ -1,0 +1,36 @@
+
+/*ESPANHOLLLLL*/
+/*FOTO ESP*/
+#esp{
+    position: absolute;
+    margin-top:460px;
+
+}
+#seloesp{
+    position: absolute;
+    margin-top:630px;
+    left:95px;
+    opacity: 0;
+}
+#seloespneg{
+    position: absolute;
+    margin-top:630px;
+    left:95px;
+    opacity: 0;
+}
+
+/*NOME ESP*/
+#espanhol{
+    position: absolute;
+    margin-top:420px;
+    left:80px;
+}
+
+@media (max-width: 759px){
+    
+#materiaesp{
+    position: absolute;
+    left:140px;
+    top:1750px;
+}
+}

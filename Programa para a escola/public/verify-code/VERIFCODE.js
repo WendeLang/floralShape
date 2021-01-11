@@ -1,0 +1,13 @@
+let matfeito ='x'
+let cienfeito = 'x'
+let quimfeito = 'x'
+let histfeito = 'ok'
+let geofeito = 'ok'
+let portfeito = 'x'
+let espfeito = 'x'
+let ingfeito = 'x'
+let filofeito = 'x'
+let fisfeito = 'x'
+let socfeito = 'x'
+let litfeito = 'x'
+

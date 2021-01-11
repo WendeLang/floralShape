@@ -1,0 +1,39 @@
+
+
+/*Foto ciencia*/
+#cien{
+    position: absolute;
+    left:560px;
+    margin-top: -200px;
+    
+    
+}
+#selocien{
+    position: absolute;
+    left:670px;
+    margin-top: 65px;
+    opacity: 0;
+}
+#selocieneg{
+    position: absolute;
+    left:670px;
+    margin-top: 65px;
+    opacity: 0;    
+}
+/*Nome ciencia*/
+#ciencia{
+    position: absolute;
+    margin-top: -240px;
+    left:660px;
+}
+
+
+
+@media (max-width: 759px){
+#materiacien{
+    position: absolute;
+    left:-431px;
+    top:800px;
+
+}
+}

@@ -1,0 +1,37 @@
+
+
+/*GEOGRAFIAAA*/
+/*FOTO GEOG*/
+  
+#geog{
+    position: absolute;
+    left:560px;
+    margin-top:180px;
+}
+#selogeo{
+    position: absolute;
+    left:675px;
+    margin-top:360px;
+    opacity: 0;
+}
+#selogeoneg{
+    position: absolute;
+    left:675px;
+    margin-top:360px;
+    opacity: 0;
+}
+#geografia{
+    position: absolute;
+    margin-top:140px;
+    left:655px;
+}
+
+
+@media (max-width: 759px){
+    #materiageog{
+        position: absolute;
+        left:-436px;
+        top:1450px;
+    
+    }
+}

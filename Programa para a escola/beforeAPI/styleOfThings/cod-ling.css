@@ -1,0 +1,59 @@
+
+main #img-cod-ling{
+    top: 240px;
+   position: absolute;
+
+height: 50px;
+border-radius: 20px;
+border:2px solid rgba(255, 255, 255, 0);
+   left:54.5%;
+   height: 200px;
+   width:16%;
+   background: url('/public/imagens/possible-Wallpaper.webp');
+   background-size:100%;
+}
+
+
+main #footer-div-cod{
+    position: absolute; 
+    z-index: 2;
+    text-align: center;
+    line-height: 130px;
+
+    font-family: 'Oswald', sans-serif;
+left:1%;
+border-radius: 0 0 12px 12px;
+    border:2px solid rgba(255, 0, 0, 0);
+    width:96.5%;
+    top: 50px;
+    height: 160px;
+    background: white;
+}
+
+
+main #footer-div-cod ul{
+    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14pt;
+    display: block;
+    
+}
+ul #port{
+    position: relative;
+    opacity: 0;
+}
+ul #lit{
+    position: absolute;
+    top:40px;
+    opacity: 0;
+}
+ul #ing{
+    position: absolute;
+    top:80px;
+    opacity: 0;
+}
+ul #esp{
+    position: absolute;
+    top:120px;
+    opacity: 0;
+}

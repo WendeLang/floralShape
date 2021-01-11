@@ -1,0 +1,37 @@
+
+
+/*Foto quim*/
+#quim{
+    position: absolute;
+    left:1100px;
+    margin-top: -180px;
+    
+}
+#seloquim {
+    position: absolute;
+    left:1200px;
+    margin-top:25px;
+    opacity: 0;
+}
+#seloquimneg{
+    position: absolute;
+    left:1200px;
+    margin-top:25px;
+    opacity: 0;
+}
+/*Nome quimica*/
+#quimica{
+    position: absolute;
+    margin-top: -230px;
+    left:1185px;
+}
+
+@media (max-width: 759px){
+    #materiaquim{
+        position: absolute;
+        left:-965px;
+        top:1170px;
+        
+    }
+
+}
